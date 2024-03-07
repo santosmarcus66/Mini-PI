@@ -1,0 +1,253 @@
+body, ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+body{
+    background-color: black;
+}
+ .menu{
+    text-decoration: none;
+    color: green;
+    } 
+
+    .header{
+        
+        background: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        align-items: center;
+        padding: 15px;
+        border-bottom: solid;
+        border-color: white;
+        border-width: 1px; 
+
+    }
+    .carrinho {
+        height: 35px; 
+     }
+     
+    .menu{
+        display: flex;
+        margin-right: 50px;
+        
+        
+    }
+    .menu li {
+        margin-left: 30px;
+            }
+
+    .menu li {
+        display: block;
+        padding: 10px;
+}
+
+.logo {
+
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-shadow: 
+               -1px -1px 0px #ffffff, 
+               -1px 1px 0px #ffffff,                    
+                1px -1px 0px #ffffff,                  
+                1px 0px 0px #ffffff;
+}
+
+
+.links  {
+   
+    margin-top: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: small;
+}
+
+.button {
+    
+    color: white;
+    background-color: rgb(5, 90, 248);
+    border: none;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.button2 {
+    
+    color: white;
+    background-color: rgb(5, 90, 248);
+    border: none;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+input::placeholder {
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+  }
+ 
+.login {
+    
+    margin-top: 20px;
+    background-color: rgb(0, 206, 0);
+    border-radius: 20px;
+    border: none;
+    width: 400px;
+    height: 40px;
+}
+
+.tela {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.direcao{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+/* CSS da tela de cadastro */
+
+.cadastro {
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left: 180px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 15px;
+    
+}
+
+.tudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo2 {
+
+    height: 150px;
+}
+
+.txt_criar {
+
+    color: green;
+    font-style: bolder;
+}
+.txt_cad {
+    font-size: 15px;
+}
+
+.masks {
+    height: auto;
+    width: 50%;
+    
+}
+
+h1 {
+
+    color: azure;
+}
+
+
+/* CSS da tela de produtos*/ 
+
+.seta {
+
+    width: auto;
+    height: 60px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+section {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.valor {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bo_prod {
+    color: #ffffff;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+}
+
+
+/* CSS pagina de contato */
+
+#tex_ajuda {
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+    
+ }
+
+ #tex_fale {
+    font-size: 30px;
+    color: #ffffff;
+
+ }
+
+.contato {
+    font-size: 15px;
+    color: white;
+}
+
+iframe {
+ 
+}
+
+.endereço {
+
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 50%;
+    margin: 55px;
+    text-align: left;
+
+
+}
